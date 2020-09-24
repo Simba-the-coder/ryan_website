@@ -7,7 +7,7 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url('../images/RL6A8598.jpg')  no-repeat center;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('../images/RL6A8598.jpg')  no-repeat center;
     background-size: 100%;
     opacity: 1.5;
 } 
@@ -26,7 +26,7 @@ nav ul li a{
 }
 
 #second:hover{ 
-     background: #e91e63;
+     background: #db690c;
      transition: .5s;
 }
 
@@ -145,7 +145,7 @@ nav ul li a{
 #first{
     display: inline-block;
     padding: 10px 20px;
-    background: #e91e63;
+    background: #db690c;
     border-radius: 4px;
     text-decoration: none;
     margin-top: 25px;
@@ -199,7 +199,7 @@ nav ul li a{
 #third{
     display: inline-block;
     padding: 10px 20px;
-    background: #e91e63;
+    background: #db690c;
     border-radius: 4px;
     text-decoration: none;
     margin-top: 25px;
