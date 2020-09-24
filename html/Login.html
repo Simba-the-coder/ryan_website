@@ -1,0 +1,51 @@
+<!-- hold the Left Shift key with the ! (exclamation mark) and press enter -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ryan's InstaPage Login</title>
+   
+    <link rel="stylesheet" href="../stylesheets/loginStyles.css">
+    <script type = "text/javascript" src="../scripts/validation.js" ></script>
+</head>
+
+<body>
+    <div class="login-wrapper">
+        <form action="" class ="form" name="myForm" method="post">
+
+            <h2>Enter info to Login</h2>
+
+            <div class ="input-group">
+                <input type="text" name="loginUser" id="loginUser" required>
+                <label for="loginUser">User Name</label>
+            </div>
+
+            <div class ="input-group">
+                <input type="password" name="loginPassword" id="loginPassword" required>
+                <label for="loginUser">Password</label>
+            </div>
+
+            <!-- onclick="parent.open('cssFlexbox.html')"  -->
+            <input type="submit" value="Login" class ="submitButton" onclick="validate()">
+            
+            <a href="#forgot-pw" class="forgot-pw">Forgot Password</a>
+        </form>
+
+        <div id = "forgot-pw">
+            <form action="" class="form">
+                <a href="#" class="close">&times;</a>
+                <h2>Reset Password</h2>
+
+                <div class="input-group">
+                    <input type="email" name="email" id="email" required>
+                    <label for="email">Email</label>
+                </div>
+                <input type="submit" value="submit" class="submitButton">
+            </form>
+        </div>
+
+    </div>
+</body>
+</html>
